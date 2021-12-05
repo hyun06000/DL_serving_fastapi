@@ -1,5 +1,6 @@
 # DL Serving Tutorial with FastAPI
-이 저장소는 MLOps에 관한 문서들과 태크들을 모아놓은 이 [저장소](https://github.com/State-of-The-MLOps/MLOps)를 클론 코딩하며 하나씩 익혀보는 기록을 남긴 곳입니다. 좋은 자료를 제공해 주신 contributors 분들께 감사드립니다.  
+이 저장소는 MLOps에 관한 문서들과 태크들을 모아놓은 이 [저장소](https://github.com/State-of-The-MLOps/MLOps)를 클론 코딩하며 하나씩 익혀보는 기록을 남긴 곳입니다.  
+좋은 자료를 제공해 주신 contributors 분들께 감사드립니다.  
 자세한 해석과 따라가는 과정은 저의 [블로그](https://davi06000.tistory.com/128) 를 통해서 확인할 수 있습니다.  
 모든 작업은 로컬의 windows 에서 ubuntu server에 접속하여 원격으로 진행되고 있습니다.  
 최종적으로는 Continuous Training 을 구현하는 것이 이 저장소의 목표입니다.  
