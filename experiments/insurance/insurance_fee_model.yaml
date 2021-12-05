@@ -1,0 +1,15 @@
+authorName: User
+experimentName: exp1
+maxExecDuration: 1h
+maxTrialNum: 10
+searchSpacePath: search_space.json
+trainingServicePlatform: local
+trial:
+  codeDir: .
+  command: python trial.py -e User -n exp1 -m insurance_fee_model -v 0.1
+trialConcurrency: 1
+tuner:
+  builtinTunerName: Anneal
+  classArgs:
+    optimize_mode: minimize
+useAnnotation: false

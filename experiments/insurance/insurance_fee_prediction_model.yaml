@@ -1,0 +1,16 @@
+authorName: Sang-hyun
+experimentName: exp_00
+maxExecDuration: 1h
+maxTrialNum: 10
+searchSpacePath: search_space.json
+trainingServicePlatform: local
+trial:
+  codeDir: .
+  command: python trial.py -e Sang-hyun -n exp_00 -m insurance_fee_prediction_model
+    -v 0.6
+trialConcurrency: 1
+tuner:
+  builtinTunerName: Anneal
+  classArgs:
+    optimize_mode: minimize
+useAnnotation: false
